@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.ati.controller.PacientController">
+
+    <!-- Header -->
+    <top>
+        <VBox spacing="10" style="-fx-background-color: #2196F3; -fx-padding: 15;">
+            <Label text="Pacienti In Asteptare" textFill="WHITE">
+                <font>
+                    <Font name="System Bold" size="24"/>
+                </font>
+            </Label>
+            <Label fx:id="userLabel" textFill="WHITE">
+                <font>
+                    <Font size="14"/>
+                </font>
+            </Label>
+        </VBox>
+    </top>
+
+    <!-- Tabel Central -->
+    <center>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <!-- Tabelul -->
+            <TableView fx:id="pacientiTable" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="idColumn" text="ID" prefWidth="50"/>
+                    <TableColumn fx:id="cnpColumn" text="CNP" prefWidth="150"/>
+                    <TableColumn fx:id="varstaColumn" text="VARSTA" prefWidth="250"/>
+                    <TableColumn fx:id="prematurColumn" text="PREMATUR" prefWidth="250"/>
+                    <TableColumn fx:id="diagnostic_principalColumn" text="DIAGNOSTIC" prefWidth="120"/>
+                    <TableColumn fx:id="gravitateColumn" text="GRAVITATE" prefWidth="120"/>
+
+                </columns>
+                <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+            </TableView>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Button text="Adaua la TIC" onAction="#handleAdaugaTIC"/>
+            <Button text="Adaua la TIM" onAction="#handleAdaugaTIM"/>
+            <Button text="Adaua la TIIP" onAction="#handleAdaugaTIIP"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>
