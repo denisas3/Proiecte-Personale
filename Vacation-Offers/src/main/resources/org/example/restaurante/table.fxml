@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.restaurante.controller.OferteSpecialeController">
+
+    <!-- Header -->
+    <top>
+        <VBox spacing="10" style="-fx-background-color: #2196F3; -fx-padding: 15;">
+            <Label fx:id="hotelLabel" textFill="WHITE">
+                <font>
+                    <Font size="14"/>
+                </font>
+            </Label>
+        </VBox>
+    </top>
+
+    <!-- Tabel Central -->
+    <center>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <!-- Data Picker -->
+            <HBox>
+                <DatePicker fx:id="data_inceputPicker" promptText="Data Inceput"/>
+                <DatePicker fx:id="data_finalPicker" promptText="Data Sfarsit"/>
+                <Button text="Cauta!" onAction="#handleGaseste"
+                        prefWidth="200.0" defaultButton="true">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Button>
+            </HBox>
+
+            <!-- Tabelul -->
+            <TableView fx:id="oferteSpecialeTableView" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="data_inceputColumn" text="Data Inceput" prefWidth="150"/>
+                    <TableColumn fx:id="data_finalColumn" text="Data Final" prefWidth="250"/>
+                    <TableColumn fx:id="procentColumn" text="Procent" prefWidth="250"/>
+                </columns>
+                <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+            </TableView>
+        </VBox>
+    </center>
+</BorderPane>
