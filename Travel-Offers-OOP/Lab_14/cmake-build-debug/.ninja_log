@@ -1,0 +1,16 @@
+# ninja log v6
+2183	2851	7725398866943045	CMakeFiles/Lab_10.dir/UI/Consola.cpp.obj	ba79ff412dcca22d
+32	158	7775825109760302	Lab_10_autogen/timestamp	37d05210af16db85
+7057	8209	7775825180014684	Lab_10.exe	7cd890c89684eed0
+159	7057	7775825111029758	CMakeFiles/Lab_10.dir/main.cpp.obj	63f9aec80367d4e0
+32	158	7775825109760302	Lab_10_autogen/mocs_compilation.cpp	37d05210af16db85
+3604	4104	7707610539379087	CMakeFiles/Lab_10.dir/Erori/Exceptii.cpp.obj	b0049c3d75839dd2
+2176	4120	7725398866873088	CMakeFiles/Lab_10.dir/Lab_10_autogen/mocs_compilation.cpp.obj	56c66ad59812a661
+5	669	7939825232976215	build.ninja	b1275eae90f7e68f
+3599	4181	7707610539319064	CMakeFiles/Lab_10.dir/Domeniu/oferta.cpp.obj	12c0994c9d46f665
+3620	4147	7707610539529134	CMakeFiles/Lab_10.dir/Validator/Validator_oferta.cpp.obj	29a5ce267f15fba4
+3602	4382	7707610539349065	CMakeFiles/Lab_10.dir/Repo/Repo_oferta.cpp.obj	b69c4185b0e68391
+2185	3123	7725398866963044	CMakeFiles/Lab_10.dir/Teste/Teste.cpp.obj	a192ca13962459b1
+2180	3131	7725398866913040	CMakeFiles/Lab_10.dir/Service/Service_oferta.cpp.obj	6b7b705886ef504e
+3626	5222	7707610539589107	CMakeFiles/Lab_10.dir/Wishlist/cos.cpp.obj	faff206e9c31f74b
+2188	4104	7725398866983062	CMakeFiles/Lab_10.dir/Model_view/model.cpp.obj	e19d637393b86ff5
