@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.restaurante.controller.StaffController"
+      spacing="10" prefWidth="800" prefHeight="400">
+
+    <Label text="Placed Orders" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+
+    <TableView fx:id="placedOrdersTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="tableIdColumn" text="Table ID" prefWidth="100"/>
+            <TableColumn fx:id="dateColumn" text="Date" prefWidth="200"/>
+            <TableColumn fx:id="itemsColumn" text="Items" prefWidth="480"/>
+        </columns>
+    </TableView>
+
+</VBox>

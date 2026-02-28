@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.restaurante.controller.TableController"
+      spacing="10"
+      prefWidth="800" prefHeight="400">
+
+
+    <VBox spacing="10"
+        prefWidth="800" prefHeight="400">
+
+        <Label fx:id="categoryLable" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: pink;">
+        </Label>
+        <TableView fx:id="tableView" prefHeight="360">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID" prefWidth="60"/>
+                <TableColumn fx:id="itemColumn" text="Item" prefWidth="340"/>
+                <TableColumn fx:id="priceColumn" text="Price" prefWidth="100"/>
+                <TableColumn fx:id="currencyColumn" text="Currency" prefWidth="100"/>
+                <TableColumn fx:id="selectColumn" text="Selecte" prefWidth="70"/>
+            </columns>
+        </TableView>
+
+        <Label fx:id="categoryLable1" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: pink;"></Label>
+        <TableView fx:id="tableView1" prefHeight="360">
+            <columns>
+                <TableColumn fx:id="idColumn1" text="ID" prefWidth="60"/>
+                <TableColumn fx:id="itemColumn1" text="Item" prefWidth="340"/>
+                <TableColumn fx:id="priceColumn1" text="Price" prefWidth="100"/>
+                <TableColumn fx:id="currencyColumn1" text="Currency" prefWidth="100"/>
+                <TableColumn fx:id="selectColumn1" text="Selecte" prefWidth="70"/>
+            </columns>
+        </TableView>
+
+        <Label fx:id="categoryLable2" style="-fx-font-size: 20px; -fx-font-weight: bold;
+            -fx-text-fill: pink;">
+        </Label>
+        <TableView fx:id="tableView2" prefHeight="360">
+            <columns>
+                <TableColumn fx:id="idColumn2" text="ID" prefWidth="60"/>
+                <TableColumn fx:id="itemColumn2" text="Item" prefWidth="340"/>
+                <TableColumn fx:id="priceColumn2" text="Price" prefWidth="100"/>
+                <TableColumn fx:id="currencyColumn2" text="Currency" prefWidth="100"/>
+                <TableColumn fx:id="selectColumn2" text="Selecte" prefWidth="70"/>
+            </columns>
+        </TableView>
+
+        <HBox alignment="CENTER">
+            <Button text="Order!" onAction="#handleOrder"/>
+        </HBox>
+
+    </VBox>
+
+</HBox>
