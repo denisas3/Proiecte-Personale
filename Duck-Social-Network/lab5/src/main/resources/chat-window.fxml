@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="curs3.io.controller.ChatController"
+      spacing="10"
+      prefWidth="450" prefHeight="600">
+
+    <padding>
+        <Insets top="15" right="15" bottom="15" left="15"/>
+    </padding>
+
+    <Label fx:id="chatHeader"
+           style="-fx-font-size: 20px; -fx-font-weight: bold;"
+    />
+
+    <VBox fx:id="replyBox" visible="false" managed="false">
+        <Label fx:id="replyLabel"/>
+    </VBox>
+
+    <ListView fx:id="messageList"
+              prefHeight="450"
+              style="-fx-background-color: #f5f5f5;"
+    />
+
+    <HBox spacing="10">
+        <TextField fx:id="messageBox"
+                   promptText="Type a message..."
+                   HBox.hgrow="ALWAYS"/>
+        <Button text="Send" onAction="#handleSend" prefWidth="80"/>
+    </HBox>
+
+</VBox>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="curs3.io.controller.MainMenuController"
+      spacing="20" alignment="CENTER" prefWidth="500" prefHeight="400">
+
+    <Label text="Duck Social Network Menu"
+           style="-fx-font-size: 28px; -fx-font-weight: bold"/>
+
+    <Button text="Manage Users" prefWidth="250" onAction="#openUserWindow"/>
+    <Button text="Manage Friendships" prefWidth="250" onAction="#openFriendshipWindow"/>
+    <Button text="Manage Ducks" prefWidth="250" onAction="#openDuckWindow"/>
+    <Button text="Chat" prefWidth="250" onAction="#openChatSelectWindow"/>
+    <Button fx:id="friendRequestsBtn"
+            text="Friend Requests"
+            prefWidth="250"
+            onAction="#openFriendRequestsWindow"/>
+    <Button text="Exit" prefWidth="250" onAction="#handleExit"/>
+
+</VBox>

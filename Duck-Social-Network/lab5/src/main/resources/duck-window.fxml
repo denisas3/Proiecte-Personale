@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="curs3.io.controller.DuckController"
+      spacing="20" alignment="CENTER">
+
+    <Label fx:id="welcomeLabel"/>
+
+    <TableView fx:id="duckTableView" prefHeight="310" prefWidth="400">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID"/>
+            <TableColumn fx:id="typeColumn" text="Type"/>
+            <TableColumn fx:id="staminaColumn" text="Stamina"/>
+            <TableColumn fx:id="speedColumn" text="Speed"/>
+        </columns>
+    </TableView>
+
+    <ComboBox fx:id="typeComboBox" prefWidth="300"/>
+
+    <HBox spacing="20">
+        <Button text="Previous" onAction="#handlePrevPage"/>
+        <Button text="Next" onAction="#handleNextPage"/>
+    </HBox>
+
+    <Label fx:id="pageLabel"/>
+
+    <Button text="Exit" onAction="#handleExit"/>
+
+</VBox>

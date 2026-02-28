@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="curs3.io.controller.FriendshipController"
+      spacing="10"
+      alignment="TOP_CENTER"
+      prefWidth="700"
+      prefHeight="600">
+
+    <Label text="Friendship Management"
+           style="-fx-font-size: 22px; -fx-font-weight: bold"/>
+
+    <TitledPane text="Users" expanded="true">
+        <VBox spacing="5">
+            <TableView fx:id="userTable" prefHeight="160">
+                <columns>
+                    <TableColumn fx:id="idColumn" text="ID" prefWidth="80"/>
+                    <TableColumn fx:id="usernameColumn" text="Username" prefWidth="420"/>
+                </columns>
+            </TableView>
+
+            <Label text="Friends of selected user:"/>
+            <ListView fx:id="friendsList" prefHeight="80"/>
+        </VBox>
+    </TitledPane>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Add Friendship" onAction="#handleAddFriend"/>
+        <Button text="Remove Friendship" onAction="#handleRemoveFriend"/>
+        <Button text="Send Friend Request" onAction="#handleSendRequest"/>
+    </HBox>
+
+    <TitledPane text="All Friendships" expanded="false">
+        <VBox spacing="5">
+            <Button text="Show All Friendships"
+                    onAction="#handleShowAllFriendships"
+                    maxWidth="200"/>
+
+            <TableView fx:id="friendshipTable" prefHeight="160">
+                <columns>
+                    <TableColumn fx:id="fidColumn" text="ID" prefWidth="100"/>
+                    <TableColumn fx:id="u1Column" text="User 1" prefWidth="180"/>
+                    <TableColumn fx:id="u2Column" text="User 2" prefWidth="180"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </TitledPane>
+
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Count Communities" onAction="#handleCountCommunities"/>
+        <TextField fx:id="communityCountField"
+                   prefWidth="120"
+                   editable="false"/>
+    </HBox>
+
+    <Label fx:id="statusLabel"
+           style="-fx-font-size: 14px;"/>
+
+</VBox>

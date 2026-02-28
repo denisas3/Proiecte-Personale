@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="curs3.io.controller.LoginController"
+      spacing="15" alignment="CENTER"  prefWidth="260" prefHeight="180">
+
+    <Label text="Login" style="-fx-font-size: 24px; -fx-font-weight: bold"/>
+
+    <TextField fx:id="usernameField" promptText="Username" prefWidth="200" maxWidth="200"/>
+
+    <PasswordField fx:id="passwordField" promptText="Password" prefWidth="200" maxWidth="200"/>
+
+    <Button text="Login" onAction="#handleLogin" prefWidth="150"/>
+
+    <Label fx:id="statusLabel" style="-fx-text-fill: red;"/>
+
+</VBox>
