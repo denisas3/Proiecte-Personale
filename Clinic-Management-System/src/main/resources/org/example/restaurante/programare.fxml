@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.restaurante.controller.ConsultatieController">
+
+    <!-- Header -->
+    <top>
+        <VBox spacing="10" style="-fx-background-color: #2196F3; -fx-padding: 15;">
+            <Label fx:id="SectieLabel" textFill="WHITE">
+                <font>
+                    <Font name="System Bold" size="24"/>
+                </font>
+            </Label>
+        </VBox>
+    </top>
+
+    <!-- Tabel Central -->
+    <center>
+        <VBox>
+        <HBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+           <ComboBox fx:id="medicComboBox" promptText="Medic"/>
+            <DatePicker fx:id="datePicker" promptText="Data programare"/>
+            <Spinner fx:id="oraSpinner" prefWidth="80"/>
+            <Spinner fx:id="minuteSpinner" prefWidth="80"/>
+
+        </HBox>
+        <VBox>
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <TextField fx:id="cnpTextField" promptText="Introdu CNP-ul Pacientului"/>
+            <TextField fx:id="numeTextField" promptText="Introdu Numele Pacientului"/>
+
+        </VBox>
+        </VBox>
+    </center>
+
+    <bottom>
+        <Button text="Adauga Programare" onAction="#handleAdaugaProgramare"
+                prefWidth="150.0" defaultButton="true">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+    </bottom>
+
+</BorderPane>
