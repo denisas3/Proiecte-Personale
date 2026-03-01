@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.restaurante.controller.StatieController">
+
+    <!-- Header -->
+    <top>
+        <VBox spacing="10" style="-fx-background-color: #2196F3; -fx-padding: 15;">
+            <Label text="Statii" textFill="WHITE">
+                <font>
+                    <Font name="System Bold" size="24"/>
+                </font>
+            </Label>
+        </VBox>
+    </top>
+
+    <!-- Tabel Central -->
+    <center>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <!-- COMBO BOX -->
+            <HBox spacing="10">
+                <ComboBox fx:id="oras_plecare" promptText="Oras Plecare"/>
+                <ComboBox fx:id="oras_sosire" promptText="Oras Sosire"/>
+
+                <!-- CHECK BOX -->
+                <CheckBox fx:id="rutaDirecta"
+                          text="Doar Rute Directe"/>
+
+                <Button text="Search" onAction="#handleSearch"/>
+            </HBox>
+
+            <!-- Tabelul -->
+            <TableView fx:id="statieTable" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="idColumn" text="ID" prefWidth="50"/>
+                    <TableColumn fx:id="id_tren" text="Id Tren" prefWidth="50"/>
+                    <TableColumn fx:id="id_oras_plecare" text="Id Oras Plecare" prefWidth="150"/>
+                    <TableColumn fx:id="id_oras_sosire" text="Id Oras Sosire" prefWidth="250"/>
+
+                </columns>
+                <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+            </TableView>
+
+
+            <ListView fx:id="routesList" VBox.vgrow="ALWAYS"/>
+        </VBox>
+    </center>
+
+</BorderPane>
