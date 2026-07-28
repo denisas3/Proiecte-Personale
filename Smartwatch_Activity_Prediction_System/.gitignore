@@ -1,0 +1,22 @@
+# Medii Python locale
+.venv/
+venv/
+env/
+
+# Fisiere temporare Python si Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Setari locale editor
+.vscode/
+.idea/
+
+# Cache si rezultate mari ale modelului AI
+.cache/
+huggingface/
+
+rezultate_ai/zero_shot_temp/
+
+# Fisiere temporare Power BI
+*.pbix~
