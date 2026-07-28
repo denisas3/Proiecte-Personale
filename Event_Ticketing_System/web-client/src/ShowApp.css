@@ -1,0 +1,61 @@
+.ShowApp {
+    text-align: center;
+    align-content: center;
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+.ShowApp h1 {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 28px;
+    color: darkblue;
+}
+
+.ShowTable {
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: medium;
+    color: black;
+}
+
+.ShowApp form {
+    margin: 20px auto;
+    padding: 15px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.ShowApp label {
+    display: inline-block;
+    margin: 6px;
+}
+
+.ShowApp input {
+    margin-left: 8px;
+    padding: 4px;
+}
+
+.ShowApp button,
+.ShowApp input[type="submit"] {
+    margin: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+table.center th,
+table.center td {
+    padding: 8px 12px;
+    border: 1px solid black;
+}
+
+table.center th {
+    background-color: #eeeeee;
+}

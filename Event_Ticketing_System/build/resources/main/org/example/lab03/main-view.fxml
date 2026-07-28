@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10"
+      xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.lab03.gui.MainController">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+    <Label fx:id="welcomeLabel" text="Bine ai venit!"/>
+
+    <Label text="Toate spectacolele"/>
+    <TableView fx:id="allShowsTable" prefHeight="200">
+        <columns>
+            <TableColumn fx:id="artistColumn" text="Artist"/>
+            <TableColumn fx:id="dateColumn" text="Data"/>
+            <TableColumn fx:id="locationColumn" text="Locatie"/>
+            <TableColumn fx:id="availableSeatsColumn" text="Locuri disponibile"/>
+            <TableColumn fx:id="soldSeatsColumn" text="Locuri vandute"/>
+        </columns>
+    </TableView>
+
+    <HBox spacing="10">
+        <DatePicker fx:id="searchDatePicker"/>
+        <Button text="Cauta" onAction="#handleSearch"/>
+    </HBox>
+
+    <Label text="Rezultate cautare"/>
+    <TableView fx:id="filteredShowsTable" prefHeight="150">
+        <columns>
+            <TableColumn fx:id="filteredArtistColumn" text="Artist"/>
+            <TableColumn fx:id="filteredLocationColumn" text="Locatie"/>
+            <TableColumn fx:id="filteredHourColumn" text="Ora"/>
+            <TableColumn fx:id="filteredAvailableSeatsColumn" text="Locuri disponibile"/>
+        </columns>
+    </TableView>
+
+    <Label text="Cumparare bilet"/>
+    <HBox spacing="10">
+        <TextField fx:id="buyerNameField" promptText="Nume cumparator"/>
+        <TextField fx:id="seatCountField" promptText="Nr locuri"/>
+        <Button text="Cumpara" onAction="#handleBuyTicket"/>
+    </HBox>
+
+    <Separator/>
+
+    <Label text="Modificare bilet"/>
+    <HBox spacing="10">
+        <ComboBox fx:id="showComboBox" prefWidth="350"/>
+        <Button text="Incarca bilete" onAction="#handleLoadTicketsForShow"/>
+    </HBox>
+
+    <TableView fx:id="ticketsTable" prefHeight="180">
+        <columns>
+            <TableColumn fx:id="ticketIdColumn" text="ID bilet"/>
+            <TableColumn fx:id="ticketBuyerColumn" text="Cumparator"/>
+            <TableColumn fx:id="ticketSeatsColumn" text="Nr locuri"/>
+        </columns>
+    </TableView>
+
+    <HBox spacing="10">
+        <TextField fx:id="newSeatCountField" promptText="Noul nr locuri"/>
+        <Button text="Modifica bilet selectat" onAction="#handleUpdateTicket"/>
+    </HBox>
+
+    <Button text="Logout" onAction="#handleLogout"/>
+</VBox>

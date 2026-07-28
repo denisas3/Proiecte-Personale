@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="gui.MainController"
+            prefWidth="1200"
+            prefHeight="760">
+
+    <top>
+        <HBox spacing="12" alignment="CENTER_LEFT">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label text="Aplicatie bilete" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+            <Label fx:id="welcomeLabel" text="Welcome!"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <Button text="Logout" onAction="#handleLogout"/>
+        </HBox>
+    </top>
+
+    <center>
+        <VBox spacing="12">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <TitledPane text="Toate spectacolele" expanded="true">
+                <content>
+                    <TableView fx:id="allShowsTable" prefHeight="220">
+                        <columns>
+                            <TableColumn fx:id="artistColumn" text="Artist" prefWidth="220"/>
+                            <TableColumn fx:id="dateColumn" text="Data" prefWidth="220"/>
+                            <TableColumn fx:id="locationColumn" text="Locatie" prefWidth="180"/>
+                            <TableColumn fx:id="availableSeatsColumn" text="Locuri disponibile" prefWidth="150"/>
+                            <TableColumn fx:id="soldSeatsColumn" text="Locuri vandute" prefWidth="140"/>
+                        </columns>
+                    </TableView>
+                </content>
+            </TitledPane>
+
+            <TitledPane text="Cauta spectacole dupa data" expanded="true">
+                <content>
+                    <VBox spacing="10">
+                        <HBox spacing="10" alignment="CENTER_LEFT">
+                            <Label text="Data:"/>
+                            <DatePicker fx:id="searchDatePicker"/>
+                            <Button text="Cauta" onAction="#handleSearchShows"/>
+                        </HBox>
+
+                        <TableView fx:id="searchResultsTable" prefHeight="180">
+                            <columns>
+                                <TableColumn fx:id="resultArtistColumn" text="Artist" prefWidth="220"/>
+                                <TableColumn fx:id="resultLocationColumn" text="Locatie" prefWidth="180"/>
+                                <TableColumn fx:id="resultHourColumn" text="Ora" prefWidth="120"/>
+                                <TableColumn fx:id="resultAvailableSeatsColumn" text="Locuri disponibile" prefWidth="150"/>
+                            </columns>
+                        </TableView>
+                    </VBox>
+                </content>
+            </TitledPane>
+
+            <HBox spacing="12">
+                <TitledPane text="Cumpara bilet" expanded="true" HBox.hgrow="ALWAYS">
+                    <content>
+                        <VBox spacing="10">
+                            <Label text="Selecteaza un spectacol din tabelul de mai sus sau din rezultatele cautarii."/>
+                            <TextField fx:id="buyerNameField" promptText="Nume cumparator"/>
+                            <TextField fx:id="seatCountField" promptText="Numar locuri"/>
+                            <Button text="Cumpara bilet" onAction="#handleBuyTicket"/>
+                        </VBox>
+                    </content>
+                </TitledPane>
+
+                <TitledPane text="Vizualizeaza / modifica bilete" expanded="true" HBox.hgrow="ALWAYS">
+                    <content>
+                        <VBox spacing="10">
+                            <ComboBox fx:id="showComboBox" promptText="Selecteaza spectacol" prefWidth="350"/>
+                            <HBox spacing="10">
+                                <Button text="Incarca bilete" onAction="#handleLoadTickets"/>
+                            </HBox>
+
+                            <TableView fx:id="ticketsTable" prefHeight="160">
+                                <columns>
+                                    <TableColumn fx:id="ticketIdColumn" text="ID" prefWidth="80"/>
+                                    <TableColumn fx:id="ticketBuyerColumn" text="Cumparator" prefWidth="170"/>
+                                    <TableColumn fx:id="ticketSeatCountColumn" text="Locuri" prefWidth="100"/>
+                                </columns>
+                            </TableView>
+
+                            <TextField fx:id="newSeatCountField" promptText="Noul numar de locuri"/>
+                            <Button text="Modifica bilet" onAction="#handleUpdateTicket"/>
+                        </VBox>
+                    </content>
+                </TitledPane>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

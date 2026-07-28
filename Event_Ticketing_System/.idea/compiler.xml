@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="Lab03.LabModel" target="21" />
+      <module name="Lab03.LabModel.main" target="21" />
+      <module name="Lab03.LabModel.test" target="21" />
+      <module name="Lab03.LabNetworking" target="21" />
+      <module name="Lab03.LabNetworking.main" target="21" />
+      <module name="Lab03.LabNetworking.test" target="21" />
+      <module name="Lab03.LabPersistence" target="21" />
+      <module name="Lab03.LabPersistence.main" target="21" />
+      <module name="Lab03.LabPersistence.test" target="21" />
+      <module name="Lab03.LabServer" target="21" />
+      <module name="Lab03.LabServer.main" target="21" />
+      <module name="Lab03.LabServer.test" target="21" />
+      <module name="Lab03.LabServices" target="21" />
+      <module name="Lab03.LabServices.main" target="21" />
+      <module name="Lab03.LabServices.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lab03_java.LabRestServices" options="-parameters" />
+      <module name="Lab03_java.LabRestServices.main" options="-parameters" />
+      <module name="Lab03_java.LabRestServices.test" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="ms-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/LabClient" />
+            <option value="$PROJECT_DIR$/LabClientFX" />
+            <option value="$PROJECT_DIR$/LabModel" />
+            <option value="$PROJECT_DIR$/LabNetworking" />
+            <option value="$PROJECT_DIR$/LabPersistence" />
+            <option value="$PROJECT_DIR$/LabRestServices" />
+            <option value="$PROJECT_DIR$/LabServer" />
+            <option value="$PROJECT_DIR$/LabServices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+rootProject.name = "Lab03_java"
+
+include("LabModel")
+include("LabPersistence")
+include("LabServices")
+include("LabNetworking")
+include("LabServer")
+include("LabClient")
+include("LabClientFX")
+include ("LabRestServices")

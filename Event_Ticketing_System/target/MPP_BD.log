@@ -1,0 +1,1435 @@
+17 Mar 2026 10:27:47,196 INFO  org.example.lab03.EmployeeDbRepository 22 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 10:27:47,196 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 10:27:47,196 TRACE org.example.lab03.EmployeeDbRepository 114 save - Enter saving employee org.example.lab03.Employee@1f
+17 Mar 2026 10:27:47,196 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,196 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,196 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,212 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,212 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,435 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@56cdfb3b)
+17 Mar 2026 10:27:47,460 TRACE org.example.lab03.EmployeeDbRepository 124 save - Saved 1 instance
+17 Mar 2026 10:27:47,460 TRACE org.example.lab03.EmployeeDbRepository 125 save - Exit
+17 Mar 2026 10:27:47,460 TRACE org.example.lab03.EmployeeDbRepository 86 findAll - Enter
+17 Mar 2026 10:27:47,460 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,460 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,460 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,460 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,460 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,460 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2c35e847)
+17 Mar 2026 10:27:47,467 TRACE org.example.lab03.EmployeeDbRepository 107 findAll - Exit with([org.example.lab03.Employee@20])
+17 Mar 2026 10:27:47,467 TRACE org.example.lab03.EmployeeDbRepository 28 findByUsername - Enter
+17 Mar 2026 10:27:47,467 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1de76cc7)
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.EmployeeDbRepository 51 findByUsername - Exit with(org.example.lab03.Employee@20)
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.EmployeeDbRepository 143 update - Enter update employee org.example.lab03.Employee@20
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54bff557)
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.EmployeeDbRepository 154 update - Enter Updated 1 employee
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.EmployeeDbRepository 156 update - Exit
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.EmployeeDbRepository 86 findAll - Enter
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@593aaf41)
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.EmployeeDbRepository 107 findAll - Exit with([org.example.lab03.Employee@20])
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.ShowDbRepository 158 save - Enter saving show org.example.lab03.Show@1f
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,483 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,483 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57cf54e1)
+17 Mar 2026 10:27:47,499 TRACE org.example.lab03.ShowDbRepository 170 save - Saved 1 instance
+17 Mar 2026 10:27:47,499 TRACE org.example.lab03.ShowDbRepository 171 save - Exit
+17 Mar 2026 10:27:47,499 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:27:47,499 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,499 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,499 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,499 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,499 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,499 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b03b9fe)
+17 Mar 2026 10:27:47,515 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20])
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,531 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,531 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,531 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b8ee4de)
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20])
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.ShowDbRepository 189 update - Enter update show org.example.lab03.Show@20
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,531 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,531 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,531 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b11171f)
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.ShowDbRepository 202 update - Enter Updated 1 instance
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.ShowDbRepository 204 update - Exit
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:27:47,531 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:27:47,531 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:27:47,531 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1151e434)
+17 Mar 2026 10:27:47,531 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20])
+17 Mar 2026 10:30:56,245 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 10:30:56,249 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 10:30:56,249 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 10:30:56,251 TRACE org.example.lab03.EmployeeDbRepository 112 save - Enter saving employee org.example.lab03.Employee@1f
+17 Mar 2026 10:30:56,251 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,251 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,251 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,251 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,252 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,474 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4229bb3f)
+17 Mar 2026 10:30:56,474 TRACE org.example.lab03.EmployeeDbRepository 122 save - Saved 1 instance
+17 Mar 2026 10:30:56,474 TRACE org.example.lab03.EmployeeDbRepository 123 save - Exit
+17 Mar 2026 10:30:56,474 TRACE org.example.lab03.EmployeeDbRepository 84 findAll - Enter
+17 Mar 2026 10:30:56,474 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,474 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,486 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,486 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,486 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,486 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c24b813)
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.EmployeeDbRepository 105 findAll - Exit with([org.example.lab03.Employee@20, org.example.lab03.Employee@21])
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,490 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,490 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,490 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@485966cc)
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.EmployeeDbRepository 49 findByUsername - Exit with(org.example.lab03.Employee@20)
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.EmployeeDbRepository 141 update - Enter update employee org.example.lab03.Employee@20
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,490 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,490 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,490 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1de76cc7)
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.EmployeeDbRepository 152 update - Enter Updated 1 employee
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.EmployeeDbRepository 154 update - Exit
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.EmployeeDbRepository 84 findAll - Enter
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,490 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,490 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,503 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,503 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,503 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54bff557)
+17 Mar 2026 10:30:56,503 TRACE org.example.lab03.EmployeeDbRepository 105 findAll - Exit with([org.example.lab03.Employee@20, org.example.lab03.Employee@21])
+17 Mar 2026 10:30:56,505 TRACE org.example.lab03.ShowDbRepository 158 save - Enter saving show org.example.lab03.Show@1f
+17 Mar 2026 10:30:56,505 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,505 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,505 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,505 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,505 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,505 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c711375)
+17 Mar 2026 10:30:56,508 TRACE org.example.lab03.ShowDbRepository 170 save - Saved 1 instance
+17 Mar 2026 10:30:56,508 TRACE org.example.lab03.ShowDbRepository 171 save - Exit
+17 Mar 2026 10:30:56,508 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:30:56,508 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,508 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,508 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,508 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,508 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,508 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57cf54e1)
+17 Mar 2026 10:30:56,508 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,527 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,527 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,527 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47d9a273)
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.ShowDbRepository 189 update - Enter update show org.example.lab03.Show@20
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,527 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,527 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,527 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27f981c6)
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.ShowDbRepository 202 update - Enter Updated 1 instance
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.ShowDbRepository 204 update - Exit
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:30:56,527 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,531 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,531 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,531 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b11171f)
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,531 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,531 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,531 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2dc54ad4)
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.TicketDbRepository 151 save - Enter saving ticket org.example.lab03.Ticket@1f
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,531 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,531 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,531 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,531 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b0d79fc)
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.TicketDbRepository 162 save - Saved 1 instance
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.TicketDbRepository 163 save - Exit
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,538 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,538 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,538 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c1909a3)
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20])
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,538 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,538 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,543 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,543 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,543 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d9345cd)
+17 Mar 2026 10:30:56,543 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20])
+17 Mar 2026 10:30:56,543 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@20
+17 Mar 2026 10:30:56,543 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,543 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,543 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,545 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,545 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29215f06)
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,545 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,545 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,545 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59505b48)
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20])
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.TicketDbRepository 33 findByShow - Enter
+17 Mar 2026 10:30:56,545 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:30:56,553 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:30:56,553 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:30:56,553 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:30:56,553 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:30:56,553 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6bd61f98)
+17 Mar 2026 10:30:56,555 TRACE org.example.lab03.TicketDbRepository 68 findByShow - Exit with([org.example.lab03.Ticket@20])
+17 Mar 2026 10:35:38,339 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 10:35:38,344 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 10:35:38,348 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 10:35:38,349 TRACE org.example.lab03.EmployeeDbRepository 112 save - Enter saving employee org.example.lab03.Employee@1f
+17 Mar 2026 10:35:38,350 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,350 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,350 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,350 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,351 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,573 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4229bb3f)
+17 Mar 2026 10:35:38,584 TRACE org.example.lab03.EmployeeDbRepository 122 save - Saved 1 instance
+17 Mar 2026 10:35:38,584 TRACE org.example.lab03.EmployeeDbRepository 123 save - Exit
+17 Mar 2026 10:35:38,585 TRACE org.example.lab03.EmployeeDbRepository 84 findAll - Enter
+17 Mar 2026 10:35:38,585 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,585 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,585 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,585 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,585 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,587 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c24b813)
+17 Mar 2026 10:35:38,592 TRACE org.example.lab03.EmployeeDbRepository 105 findAll - Exit with([org.example.lab03.Employee@20, org.example.lab03.Employee@21, org.example.lab03.Employee@22])
+17 Mar 2026 10:35:38,598 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+17 Mar 2026 10:35:38,598 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,598 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,598 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,599 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,599 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,600 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@485966cc)
+17 Mar 2026 10:35:38,600 TRACE org.example.lab03.EmployeeDbRepository 49 findByUsername - Exit with(org.example.lab03.Employee@20)
+17 Mar 2026 10:35:38,601 TRACE org.example.lab03.EmployeeDbRepository 141 update - Enter update employee org.example.lab03.Employee@20
+17 Mar 2026 10:35:38,601 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,601 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,601 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,601 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,602 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,602 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1de76cc7)
+17 Mar 2026 10:35:38,603 TRACE org.example.lab03.EmployeeDbRepository 152 update - Enter Updated 1 employee
+17 Mar 2026 10:35:38,603 TRACE org.example.lab03.EmployeeDbRepository 154 update - Exit
+17 Mar 2026 10:35:38,603 TRACE org.example.lab03.EmployeeDbRepository 84 findAll - Enter
+17 Mar 2026 10:35:38,603 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,603 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,604 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,604 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,604 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,605 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54bff557)
+17 Mar 2026 10:35:38,605 TRACE org.example.lab03.EmployeeDbRepository 105 findAll - Exit with([org.example.lab03.Employee@20, org.example.lab03.Employee@21, org.example.lab03.Employee@22])
+17 Mar 2026 10:35:38,607 TRACE org.example.lab03.ShowDbRepository 158 save - Enter saving show org.example.lab03.Show@1f
+17 Mar 2026 10:35:38,607 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,607 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,607 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,607 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,607 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,607 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c711375)
+17 Mar 2026 10:35:38,613 TRACE org.example.lab03.ShowDbRepository 170 save - Saved 1 instance
+17 Mar 2026 10:35:38,613 TRACE org.example.lab03.ShowDbRepository 171 save - Exit
+17 Mar 2026 10:35:38,614 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:35:38,614 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,614 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,614 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,614 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,614 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,615 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57cf54e1)
+17 Mar 2026 10:35:38,618 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22])
+17 Mar 2026 10:35:38,625 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:35:38,625 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,626 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,626 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,627 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,627 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,627 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47d9a273)
+17 Mar 2026 10:35:38,628 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22])
+17 Mar 2026 10:35:38,629 TRACE org.example.lab03.ShowDbRepository 189 update - Enter update show org.example.lab03.Show@20
+17 Mar 2026 10:35:38,629 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,629 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,629 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,629 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,629 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,629 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27f981c6)
+17 Mar 2026 10:35:38,629 TRACE org.example.lab03.ShowDbRepository 202 update - Enter Updated 1 instance
+17 Mar 2026 10:35:38,629 TRACE org.example.lab03.ShowDbRepository 204 update - Exit
+17 Mar 2026 10:35:38,631 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:35:38,631 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,631 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,631 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,631 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,631 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,632 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b11171f)
+17 Mar 2026 10:35:38,633 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22])
+17 Mar 2026 10:35:38,633 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 10:35:38,633 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,633 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,634 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,634 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,634 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,634 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2dc54ad4)
+17 Mar 2026 10:35:38,635 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22])
+17 Mar 2026 10:35:38,635 TRACE org.example.lab03.TicketDbRepository 151 save - Enter saving ticket org.example.lab03.Ticket@1f
+17 Mar 2026 10:35:38,635 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,635 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,636 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,636 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,636 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,636 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b0d79fc)
+17 Mar 2026 10:35:38,641 TRACE org.example.lab03.TicketDbRepository 162 save - Saved 1 instance
+17 Mar 2026 10:35:38,641 TRACE org.example.lab03.TicketDbRepository 163 save - Exit
+17 Mar 2026 10:35:38,641 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+17 Mar 2026 10:35:38,642 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,642 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,642 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,642 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,642 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,643 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c1909a3)
+17 Mar 2026 10:35:38,644 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21])
+17 Mar 2026 10:35:38,645 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+17 Mar 2026 10:35:38,645 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,645 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,646 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,647 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,647 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,648 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d9345cd)
+17 Mar 2026 10:35:38,649 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21])
+17 Mar 2026 10:35:38,649 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@21
+17 Mar 2026 10:35:38,650 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,650 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,650 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,650 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,650 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,653 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29215f06)
+17 Mar 2026 10:35:38,657 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+17 Mar 2026 10:35:38,657 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+17 Mar 2026 10:35:38,658 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+17 Mar 2026 10:35:38,658 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,658 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,658 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,658 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,658 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,659 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59505b48)
+17 Mar 2026 10:35:38,660 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21])
+17 Mar 2026 10:35:38,660 TRACE org.example.lab03.TicketDbRepository 33 findByShow - Enter
+17 Mar 2026 10:35:38,660 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 10:35:38,660 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 10:35:38,660 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 10:35:38,660 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 10:35:38,660 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 10:35:38,661 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6bd61f98)
+17 Mar 2026 10:35:38,662 TRACE org.example.lab03.TicketDbRepository 68 findByShow - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21])
+17 Mar 2026 12:36:20,466 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 12:36:20,469 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 12:36:20,473 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+17 Mar 2026 12:36:20,476 TRACE org.example.lab03.EmployeeDbRepository 112 save - Enter saving employee org.example.lab03.Employee@1f
+17 Mar 2026 12:36:20,476 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,477 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,477 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,477 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,477 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,686 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2fb3536e)
+17 Mar 2026 12:36:20,697 TRACE org.example.lab03.EmployeeDbRepository 122 save - Saved 1 instance
+17 Mar 2026 12:36:20,697 TRACE org.example.lab03.EmployeeDbRepository 123 save - Exit
+17 Mar 2026 12:36:20,699 TRACE org.example.lab03.EmployeeDbRepository 84 findAll - Enter
+17 Mar 2026 12:36:20,699 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,699 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,699 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,699 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,700 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,701 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ba3f27a)
+17 Mar 2026 12:36:20,711 TRACE org.example.lab03.EmployeeDbRepository 105 findAll - Exit with([org.example.lab03.Employee@20, org.example.lab03.Employee@21, org.example.lab03.Employee@22, org.example.lab03.Employee@23])
+17 Mar 2026 12:36:20,718 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+17 Mar 2026 12:36:20,719 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,719 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,719 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,719 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,720 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,720 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a56cdac)
+17 Mar 2026 12:36:20,721 TRACE org.example.lab03.EmployeeDbRepository 49 findByUsername - Exit with(org.example.lab03.Employee@20)
+17 Mar 2026 12:36:20,721 TRACE org.example.lab03.EmployeeDbRepository 141 update - Enter update employee org.example.lab03.Employee@20
+17 Mar 2026 12:36:20,721 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,721 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,721 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,722 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,722 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,722 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c711375)
+17 Mar 2026 12:36:20,723 TRACE org.example.lab03.EmployeeDbRepository 152 update - Enter Updated 1 employee
+17 Mar 2026 12:36:20,723 TRACE org.example.lab03.EmployeeDbRepository 154 update - Exit
+17 Mar 2026 12:36:20,723 TRACE org.example.lab03.EmployeeDbRepository 84 findAll - Enter
+17 Mar 2026 12:36:20,723 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,723 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,723 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,723 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,724 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,724 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57cf54e1)
+17 Mar 2026 12:36:20,725 TRACE org.example.lab03.EmployeeDbRepository 105 findAll - Exit with([org.example.lab03.Employee@20, org.example.lab03.Employee@21, org.example.lab03.Employee@22, org.example.lab03.Employee@23])
+17 Mar 2026 12:36:20,725 TRACE org.example.lab03.ShowDbRepository 158 save - Enter saving show org.example.lab03.Show@1f
+17 Mar 2026 12:36:20,726 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,726 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,726 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,726 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,726 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,726 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@434a63ab)
+17 Mar 2026 12:36:20,730 TRACE org.example.lab03.ShowDbRepository 170 save - Saved 1 instance
+17 Mar 2026 12:36:20,730 TRACE org.example.lab03.ShowDbRepository 171 save - Exit
+17 Mar 2026 12:36:20,730 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 12:36:20,730 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,730 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,730 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,731 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,731 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,731 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e0f5f7f)
+17 Mar 2026 12:36:20,734 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+17 Mar 2026 12:36:20,746 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 12:36:20,746 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,747 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,747 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,747 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,747 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,747 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1151e434)
+17 Mar 2026 12:36:20,748 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+17 Mar 2026 12:36:20,748 TRACE org.example.lab03.ShowDbRepository 189 update - Enter update show org.example.lab03.Show@20
+17 Mar 2026 12:36:20,748 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,748 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,748 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,748 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,748 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,749 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4659191b)
+17 Mar 2026 12:36:20,749 TRACE org.example.lab03.ShowDbRepository 202 update - Enter Updated 1 instance
+17 Mar 2026 12:36:20,749 TRACE org.example.lab03.ShowDbRepository 204 update - Exit
+17 Mar 2026 12:36:20,749 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 12:36:20,750 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,750 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,750 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,750 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,750 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,750 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@55634720)
+17 Mar 2026 12:36:20,751 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+17 Mar 2026 12:36:20,752 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+17 Mar 2026 12:36:20,752 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,752 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,752 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,752 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,752 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,752 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c1909a3)
+17 Mar 2026 12:36:20,753 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+17 Mar 2026 12:36:20,754 TRACE org.example.lab03.TicketDbRepository 151 save - Enter saving ticket org.example.lab03.Ticket@1f
+17 Mar 2026 12:36:20,754 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,754 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,754 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,754 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,754 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,754 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d710f1a)
+17 Mar 2026 12:36:20,758 TRACE org.example.lab03.TicketDbRepository 162 save - Saved 1 instance
+17 Mar 2026 12:36:20,758 TRACE org.example.lab03.TicketDbRepository 163 save - Exit
+17 Mar 2026 12:36:20,758 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+17 Mar 2026 12:36:20,758 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,758 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,759 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,759 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,759 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,759 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29215f06)
+17 Mar 2026 12:36:20,760 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21, org.example.lab03.Ticket@22])
+17 Mar 2026 12:36:20,761 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+17 Mar 2026 12:36:20,761 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,761 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,761 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,761 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,761 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,761 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4efac082)
+17 Mar 2026 12:36:20,762 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21, org.example.lab03.Ticket@22])
+17 Mar 2026 12:36:20,762 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@22
+17 Mar 2026 12:36:20,762 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,762 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,762 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,762 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,762 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,763 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48aca48b)
+17 Mar 2026 12:36:20,767 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+17 Mar 2026 12:36:20,767 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+17 Mar 2026 12:36:20,767 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+17 Mar 2026 12:36:20,767 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,767 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,768 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,768 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,768 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,768 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@13fd2ccd)
+17 Mar 2026 12:36:20,769 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21, org.example.lab03.Ticket@22])
+17 Mar 2026 12:36:20,770 TRACE org.example.lab03.TicketDbRepository 33 findByShow - Enter
+17 Mar 2026 12:36:20,770 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+17 Mar 2026 12:36:20,770 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+17 Mar 2026 12:36:20,770 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+17 Mar 2026 12:36:20,770 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+17 Mar 2026 12:36:20,770 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+17 Mar 2026 12:36:20,771 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@506ae4d4)
+17 Mar 2026 12:36:20,772 TRACE org.example.lab03.TicketDbRepository 68 findByShow - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21, org.example.lab03.Ticket@22])
+23 Mar 2026 19:44:27,123 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 19:44:27,127 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 19:44:27,129 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 19:44:27,130 TRACE org.example.lab03.EmployeeDbRepository 111 save - Enter saving employee org.example.lab03.Employee@1f
+23 Mar 2026 19:44:27,130 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,130 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 19:44:27,130 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 19:44:27,130 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 19:44:27,131 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 19:44:27,517 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3943a2be)
+23 Mar 2026 19:44:27,521 ERROR org.example.lab03.EmployeeDbRepository 126 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 19:44:27,522 TRACE org.example.lab03.EmployeeDbRepository 128 save - Exit
+23 Mar 2026 19:44:27,522 TRACE org.example.lab03.EmployeeDbRepository 83 findAll - Enter
+23 Mar 2026 19:44:27,522 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,523 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3943a2be)
+23 Mar 2026 19:44:27,523 ERROR org.example.lab03.EmployeeDbRepository 101 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 19:44:27,523 TRACE org.example.lab03.EmployeeDbRepository 104 findAll - Exit with([])
+23 Mar 2026 19:44:27,524 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 19:44:27,524 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,524 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3943a2be)
+23 Mar 2026 19:44:27,525 ERROR org.example.lab03.EmployeeDbRepository 45 findByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 19:44:27,525 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit
+23 Mar 2026 19:44:27,526 TRACE org.example.lab03.EmployeeDbRepository 83 findAll - Enter
+23 Mar 2026 19:44:27,526 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,526 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3943a2be)
+23 Mar 2026 19:44:27,527 ERROR org.example.lab03.EmployeeDbRepository 101 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 19:44:27,527 TRACE org.example.lab03.EmployeeDbRepository 104 findAll - Exit with([])
+23 Mar 2026 19:44:27,527 TRACE org.example.lab03.ShowDbRepository 158 save - Enter saving show org.example.lab03.Show@1f
+23 Mar 2026 19:44:27,528 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,528 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 19:44:27,528 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 19:44:27,528 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 19:44:27,529 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 19:44:27,529 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:44:27,530 ERROR org.example.lab03.ShowDbRepository 175 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:44:27,530 TRACE org.example.lab03.ShowDbRepository 177 save - Exit
+23 Mar 2026 19:44:27,530 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+23 Mar 2026 19:44:27,530 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,531 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:44:27,531 ERROR org.example.lab03.ShowDbRepository 149 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:44:27,532 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([])
+23 Mar 2026 19:44:27,532 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+23 Mar 2026 19:44:27,533 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,533 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:44:27,533 ERROR org.example.lab03.ShowDbRepository 149 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:44:27,533 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([])
+23 Mar 2026 19:44:27,533 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+23 Mar 2026 19:44:27,533 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,533 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:44:27,533 ERROR org.example.lab03.ShowDbRepository 149 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:44:27,535 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([])
+23 Mar 2026 19:44:27,535 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+23 Mar 2026 19:44:27,535 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,535 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:44:27,536 ERROR org.example.lab03.ShowDbRepository 149 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:44:27,536 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([])
+23 Mar 2026 19:44:27,536 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+23 Mar 2026 19:44:27,536 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,537 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 19:44:27,537 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 19:44:27,537 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 19:44:27,538 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 19:44:27,539 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@78ffe6dc)
+23 Mar 2026 19:44:27,540 ERROR org.example.lab03.TicketDbRepository 142 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: tickets)
+23 Mar 2026 19:44:27,540 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([])
+23 Mar 2026 19:44:27,541 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+23 Mar 2026 19:44:27,541 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,541 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@78ffe6dc)
+23 Mar 2026 19:44:27,542 ERROR org.example.lab03.TicketDbRepository 142 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: tickets)
+23 Mar 2026 19:44:27,542 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([])
+23 Mar 2026 19:44:27,542 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+23 Mar 2026 19:44:27,542 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:44:27,542 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@78ffe6dc)
+23 Mar 2026 19:44:27,543 ERROR org.example.lab03.TicketDbRepository 142 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: tickets)
+23 Mar 2026 19:44:27,543 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([])
+23 Mar 2026 19:45:20,784 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 19:45:20,786 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 19:45:20,788 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 19:45:20,789 TRACE org.example.lab03.EmployeeDbRepository 111 save - Enter saving employee org.example.lab03.Employee@1f
+23 Mar 2026 19:45:20,789 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:20,790 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 19:45:20,790 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 19:45:20,790 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 19:45:20,790 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 19:45:21,178 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3943a2be)
+23 Mar 2026 19:45:21,181 ERROR org.example.lab03.EmployeeDbRepository 126 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 19:45:21,182 TRACE org.example.lab03.EmployeeDbRepository 128 save - Exit
+23 Mar 2026 19:45:21,182 TRACE org.example.lab03.EmployeeDbRepository 83 findAll - Enter
+23 Mar 2026 19:45:21,182 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,182 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3943a2be)
+23 Mar 2026 19:45:21,182 ERROR org.example.lab03.EmployeeDbRepository 101 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 19:45:21,183 TRACE org.example.lab03.EmployeeDbRepository 104 findAll - Exit with([])
+23 Mar 2026 19:45:21,183 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 19:45:21,184 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,184 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3943a2be)
+23 Mar 2026 19:45:21,184 ERROR org.example.lab03.EmployeeDbRepository 45 findByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 19:45:21,184 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit
+23 Mar 2026 19:45:21,184 TRACE org.example.lab03.EmployeeDbRepository 83 findAll - Enter
+23 Mar 2026 19:45:21,185 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,185 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3943a2be)
+23 Mar 2026 19:45:21,186 ERROR org.example.lab03.EmployeeDbRepository 101 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 19:45:21,186 TRACE org.example.lab03.EmployeeDbRepository 104 findAll - Exit with([])
+23 Mar 2026 19:45:21,187 TRACE org.example.lab03.ShowDbRepository 158 save - Enter saving show org.example.lab03.Show@1f
+23 Mar 2026 19:45:21,187 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,187 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 19:45:21,187 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 19:45:21,188 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 19:45:21,188 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 19:45:21,188 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:45:21,188 ERROR org.example.lab03.ShowDbRepository 175 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:45:21,189 TRACE org.example.lab03.ShowDbRepository 177 save - Exit
+23 Mar 2026 19:45:21,189 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+23 Mar 2026 19:45:21,189 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,190 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:45:21,190 ERROR org.example.lab03.ShowDbRepository 149 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:45:21,190 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([])
+23 Mar 2026 19:45:21,191 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+23 Mar 2026 19:45:21,191 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,191 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:45:21,191 ERROR org.example.lab03.ShowDbRepository 149 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:45:21,191 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([])
+23 Mar 2026 19:45:21,192 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+23 Mar 2026 19:45:21,192 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,192 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:45:21,192 ERROR org.example.lab03.ShowDbRepository 149 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:45:21,192 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([])
+23 Mar 2026 19:45:21,192 TRACE org.example.lab03.ShowDbRepository 128 findAll - Enter
+23 Mar 2026 19:45:21,192 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,192 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46fa7c39)
+23 Mar 2026 19:45:21,193 ERROR org.example.lab03.ShowDbRepository 149 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: shows)
+23 Mar 2026 19:45:21,193 TRACE org.example.lab03.ShowDbRepository 152 findAll - Exit with([])
+23 Mar 2026 19:45:21,193 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+23 Mar 2026 19:45:21,193 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,193 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 19:45:21,194 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 19:45:21,194 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 19:45:21,194 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 19:45:21,195 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@78ffe6dc)
+23 Mar 2026 19:45:21,196 ERROR org.example.lab03.TicketDbRepository 142 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: tickets)
+23 Mar 2026 19:45:21,196 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([])
+23 Mar 2026 19:45:21,196 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+23 Mar 2026 19:45:21,196 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,196 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@78ffe6dc)
+23 Mar 2026 19:45:21,197 ERROR org.example.lab03.TicketDbRepository 142 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: tickets)
+23 Mar 2026 19:45:21,197 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([])
+23 Mar 2026 19:45:21,197 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+23 Mar 2026 19:45:21,198 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 19:45:21,198 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@78ffe6dc)
+23 Mar 2026 19:45:21,198 ERROR org.example.lab03.TicketDbRepository 142 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: tickets)
+23 Mar 2026 19:45:21,198 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([])
+23 Mar 2026 21:25:29,902 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:25:29,904 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:25:29,905 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:25:40,604 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:25:40,607 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:25:40,608 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:25:43,599 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:25:43,601 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:25:43,602 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:27:09,241 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:27:09,243 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:27:09,244 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:27:33,858 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:27:33,859 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:27:33,859 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:27:33,860 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 21:27:33,860 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:27:33,860 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:27:34,055 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ff375b)
+23 Mar 2026 21:27:34,058 ERROR org.example.lab03.EmployeeDbRepository 45 findByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 21:27:34,059 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit
+23 Mar 2026 21:27:48,442 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:27:48,443 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:27:48,443 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ff375b)
+23 Mar 2026 21:27:48,444 ERROR org.example.lab03.EmployeeDbRepository 45 findByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 21:27:48,445 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit
+23 Mar 2026 21:28:53,803 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:28:53,805 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:28:53,806 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:29:07,724 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:29:07,727 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:29:07,727 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:29:07,727 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 21:29:07,728 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:29:07,728 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:29:07,916 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6746e5d1)
+23 Mar 2026 21:29:07,919 ERROR org.example.lab03.EmployeeDbRepository 45 findByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 21:29:07,919 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit
+23 Mar 2026 21:36:43,425 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:36:43,427 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:36:43,428 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:38:53,697 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:38:53,699 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:38:53,700 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:39:14,688 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:39:14,690 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:39:14,691 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:39:14,691 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 21:39:14,691 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:39:14,691 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:39:14,891 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29fee046)
+23 Mar 2026 21:39:14,893 ERROR org.example.lab03.EmployeeDbRepository 45 findByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 21:39:14,893 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit
+23 Mar 2026 21:40:43,167 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:40:43,169 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:40:43,169 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite}
+23 Mar 2026 21:41:11,899 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:41:11,902 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:41:11,902 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:41:11,902 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/Lab03/festivals.sqlite
+23 Mar 2026 21:41:11,903 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:41:11,905 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:41:12,097 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3c3252af)
+23 Mar 2026 21:41:12,100 ERROR org.example.lab03.EmployeeDbRepository 45 findByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: employees)
+23 Mar 2026 21:41:12,100 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit
+23 Mar 2026 21:51:39,096 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite}
+23 Mar 2026 21:51:39,098 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite}
+23 Mar 2026 21:51:39,099 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite}
+23 Mar 2026 21:51:45,489 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:51:45,489 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:51:45,490 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:51:45,490 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite
+23 Mar 2026 21:51:45,491 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:51:45,491 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:51:45,500 ERROR org.example.lab03.utils.JdbcUtils 41 getNewConnection - java.sql.SQLException: No suitable driver found for D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite
+23 Mar 2026 21:51:45,502 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit
+23 Mar 2026 21:52:15,819 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite}
+23 Mar 2026 21:52:15,822 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite}
+23 Mar 2026 21:52:15,823 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite}
+23 Mar 2026 21:52:23,934 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:52:23,934 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:52:23,935 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:52:23,935 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite
+23 Mar 2026 21:52:23,935 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:52:23,936 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:52:23,942 ERROR org.example.lab03.utils.JdbcUtils 41 getNewConnection - java.sql.SQLException: No suitable driver found for D:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite
+23 Mar 2026 21:52:23,943 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit
+23 Mar 2026 21:54:06,998 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite}
+23 Mar 2026 21:54:07,000 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite}
+23 Mar 2026 21:54:07,000 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite}
+23 Mar 2026 21:54:12,164 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:54:12,164 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:54:12,164 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:54:12,165 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:FMI-Informatica2024-2028Anul_llSemestrul_llMedii_de_Proiectare_si_ProgramareLaboratorProiectLaboratorJava	eme-lab-denisas3proiect-javaLab03_javaest.sqlite
+23 Mar 2026 21:54:12,165 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:54:12,165 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:54:12,342 ERROR org.example.lab03.utils.JdbcUtils 41 getNewConnection - org.sqlite.SQLiteException: [SQLITE_CANTOPEN] Unable to open the database file (unable to open database file)
+23 Mar 2026 21:54:12,343 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit
+23 Mar 2026 21:55:12,178 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 21:55:12,180 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 21:55:12,180 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 21:55:18,384 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:55:18,384 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:55:18,384 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:55:18,385 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 21:55:18,386 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:55:18,386 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:55:18,393 ERROR org.example.lab03.utils.JdbcUtils 41 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 21:55:18,394 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit
+23 Mar 2026 21:56:23,748 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 21:56:23,750 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 21:56:23,751 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 21:56:29,352 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:56:29,352 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:56:29,352 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:56:29,352 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 21:56:29,353 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:56:29,353 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:56:29,361 ERROR org.example.lab03.utils.JdbcUtils 41 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 21:56:29,361 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit
+23 Mar 2026 21:59:16,066 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 21:59:16,068 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 21:59:16,069 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 21:59:21,719 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 21:59:21,720 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 21:59:21,720 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 21:59:21,720 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 21:59:21,720 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 21:59:21,720 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 21:59:21,902 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b220faf)
+23 Mar 2026 21:59:21,906 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+23 Mar 2026 22:01:44,676 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 22:01:44,678 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 22:01:44,679 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 22:01:50,089 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 22:01:50,089 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:01:50,089 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 22:01:50,089 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 22:01:50,090 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 22:01:50,090 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 22:01:50,276 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b09a18e)
+23 Mar 2026 22:01:50,280 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+23 Mar 2026 22:04:05,800 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 22:04:05,802 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 22:04:05,803 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 22:04:11,158 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 22:04:11,158 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:04:11,158 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 22:04:11,159 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 22:04:11,159 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 22:04:11,159 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 22:04:11,348 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b220faf)
+23 Mar 2026 22:04:11,352 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+23 Mar 2026 22:04:11,384 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+23 Mar 2026 22:04:11,384 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:04:11,384 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 22:04:11,384 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 22:04:11,384 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 22:04:11,385 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 22:04:11,385 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7025845)
+23 Mar 2026 22:04:11,389 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+23 Mar 2026 22:12:17,646 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 22:12:17,648 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 22:12:17,649 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+23 Mar 2026 22:12:23,210 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+23 Mar 2026 22:12:23,210 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:12:23,211 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 22:12:23,211 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 22:12:23,212 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 22:12:23,213 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 22:12:23,400 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@55635c8)
+23 Mar 2026 22:12:23,403 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+23 Mar 2026 22:12:23,434 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+23 Mar 2026 22:12:23,435 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:12:23,435 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 22:12:23,435 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 22:12:23,435 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 22:12:23,435 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 22:12:23,436 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:12:23,438 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+23 Mar 2026 22:12:30,559 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+23 Mar 2026 22:12:30,559 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:12:30,560 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:12:30,562 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+23 Mar 2026 22:12:58,226 TRACE org.example.lab03.ShowDbRepository 104 findOne - Enter
+23 Mar 2026 22:12:58,228 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:12:58,228 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:12:58,230 TRACE org.example.lab03.ShowDbRepository 128 findOne - Exit with(org.example.lab03.Show@20)
+23 Mar 2026 22:12:58,231 TRACE org.example.lab03.TicketDbRepository 151 save - Enter saving ticket org.example.lab03.Ticket@1f
+23 Mar 2026 22:12:58,231 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:12:58,231 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+23 Mar 2026 22:12:58,231 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+23 Mar 2026 22:12:58,231 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+23 Mar 2026 22:12:58,232 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+23 Mar 2026 22:12:58,233 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5cd00bee)
+23 Mar 2026 22:12:58,242 TRACE org.example.lab03.TicketDbRepository 162 save - Saved 1 instance
+23 Mar 2026 22:12:58,242 TRACE org.example.lab03.TicketDbRepository 163 save - Exit
+23 Mar 2026 22:12:58,243 TRACE org.example.lab03.ShowDbRepository 195 update - Enter update show org.example.lab03.Show@20
+23 Mar 2026 22:12:58,243 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:12:58,243 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:12:58,247 TRACE org.example.lab03.ShowDbRepository 208 update - Enter Updated 1 instance
+23 Mar 2026 22:12:58,247 TRACE org.example.lab03.ShowDbRepository 210 update - Exit
+23 Mar 2026 22:12:58,247 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+23 Mar 2026 22:12:58,247 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:12:58,247 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:12:58,248 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+23 Mar 2026 22:12:58,249 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+23 Mar 2026 22:12:58,249 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:12:58,249 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:12:58,249 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+23 Mar 2026 22:13:28,018 TRACE org.example.lab03.TicketDbRepository 74 findOne - Enter
+23 Mar 2026 22:13:28,021 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:13:28,022 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5cd00bee)
+23 Mar 2026 22:13:28,023 TRACE org.example.lab03.TicketDbRepository 107 findOne - Exit with(org.example.lab03.Ticket@20)
+23 Mar 2026 22:13:28,023 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+23 Mar 2026 22:13:28,024 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:13:28,024 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:13:28,025 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+23 Mar 2026 22:13:28,027 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+23 Mar 2026 22:13:28,027 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:13:28,027 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:13:28,027 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+23 Mar 2026 22:14:12,808 TRACE org.example.lab03.TicketDbRepository 74 findOne - Enter
+23 Mar 2026 22:14:12,809 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:14:12,809 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5cd00bee)
+23 Mar 2026 22:14:12,810 TRACE org.example.lab03.TicketDbRepository 107 findOne - Exit with(org.example.lab03.Ticket@24)
+23 Mar 2026 22:14:12,810 TRACE org.example.lab03.ShowDbRepository 104 findOne - Enter
+23 Mar 2026 22:14:12,810 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:14:12,810 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:14:12,811 TRACE org.example.lab03.ShowDbRepository 128 findOne - Exit with(org.example.lab03.Show@20)
+23 Mar 2026 22:14:12,811 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@24
+23 Mar 2026 22:14:12,811 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:14:12,811 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5cd00bee)
+23 Mar 2026 22:14:12,818 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+23 Mar 2026 22:14:12,819 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+23 Mar 2026 22:14:12,819 TRACE org.example.lab03.ShowDbRepository 195 update - Enter update show org.example.lab03.Show@20
+23 Mar 2026 22:14:12,819 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:14:12,819 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:14:12,824 TRACE org.example.lab03.ShowDbRepository 208 update - Enter Updated 1 instance
+23 Mar 2026 22:14:12,824 TRACE org.example.lab03.ShowDbRepository 210 update - Exit
+23 Mar 2026 22:14:12,825 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+23 Mar 2026 22:14:12,825 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:14:12,825 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:14:12,825 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+23 Mar 2026 22:14:12,825 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+23 Mar 2026 22:14:12,826 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+23 Mar 2026 22:14:12,826 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c444a23)
+23 Mar 2026 22:14:12,826 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+24 Mar 2026 13:17:05,991 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 13:17:05,994 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 13:17:05,995 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 13:17:14,836 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+24 Mar 2026 13:17:14,837 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 13:17:14,837 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+24 Mar 2026 13:17:14,838 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+24 Mar 2026 13:17:14,838 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+24 Mar 2026 13:17:14,839 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+24 Mar 2026 13:17:15,088 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b220faf)
+24 Mar 2026 13:17:15,093 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+24 Mar 2026 13:17:15,146 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+24 Mar 2026 13:17:15,146 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 13:17:15,146 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+24 Mar 2026 13:17:15,146 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+24 Mar 2026 13:17:15,146 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+24 Mar 2026 13:17:15,146 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+24 Mar 2026 13:17:15,148 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7025845)
+24 Mar 2026 13:17:15,151 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+24 Mar 2026 13:17:22,071 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+24 Mar 2026 13:17:22,071 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 13:17:22,071 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7025845)
+24 Mar 2026 13:17:22,072 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+24 Mar 2026 14:06:25,918 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 14:06:25,921 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 14:06:25,922 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 14:06:34,873 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+24 Mar 2026 14:06:34,874 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:06:34,874 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+24 Mar 2026 14:06:34,874 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+24 Mar 2026 14:06:34,875 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+24 Mar 2026 14:06:34,875 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+24 Mar 2026 14:06:35,103 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7adb30e8)
+24 Mar 2026 14:06:35,108 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+24 Mar 2026 14:06:35,150 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+24 Mar 2026 14:06:35,150 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:06:35,150 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+24 Mar 2026 14:06:35,150 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+24 Mar 2026 14:06:35,150 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+24 Mar 2026 14:06:35,151 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+24 Mar 2026 14:06:35,151 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:06:35,156 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+24 Mar 2026 14:06:40,810 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+24 Mar 2026 14:06:40,810 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:06:40,810 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:06:40,811 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+24 Mar 2026 14:06:58,042 TRACE org.example.lab03.ShowDbRepository 104 findOne - Enter
+24 Mar 2026 14:06:58,042 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:06:58,042 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:06:58,043 TRACE org.example.lab03.ShowDbRepository 128 findOne - Exit with(org.example.lab03.Show@20)
+24 Mar 2026 14:06:58,045 TRACE org.example.lab03.TicketDbRepository 151 save - Enter saving ticket org.example.lab03.Ticket@1f
+24 Mar 2026 14:06:58,045 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:06:58,045 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+24 Mar 2026 14:06:58,045 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+24 Mar 2026 14:06:58,046 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+24 Mar 2026 14:06:58,046 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+24 Mar 2026 14:06:58,047 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@398ab078)
+24 Mar 2026 14:06:58,087 TRACE org.example.lab03.TicketDbRepository 162 save - Saved 1 instance
+24 Mar 2026 14:06:58,088 TRACE org.example.lab03.TicketDbRepository 163 save - Exit
+24 Mar 2026 14:06:58,088 TRACE org.example.lab03.ShowDbRepository 195 update - Enter update show org.example.lab03.Show@20
+24 Mar 2026 14:06:58,088 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:06:58,088 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:06:58,094 TRACE org.example.lab03.ShowDbRepository 208 update - Enter Updated 1 instance
+24 Mar 2026 14:06:58,095 TRACE org.example.lab03.ShowDbRepository 210 update - Exit
+24 Mar 2026 14:06:58,095 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+24 Mar 2026 14:06:58,095 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:06:58,095 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:06:58,096 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+24 Mar 2026 14:06:58,097 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+24 Mar 2026 14:06:58,097 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:06:58,097 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:06:58,098 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+24 Mar 2026 14:07:14,901 TRACE org.example.lab03.TicketDbRepository 74 findOne - Enter
+24 Mar 2026 14:07:14,902 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:07:14,902 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@398ab078)
+24 Mar 2026 14:07:14,903 TRACE org.example.lab03.TicketDbRepository 107 findOne - Exit with(org.example.lab03.Ticket@25)
+24 Mar 2026 14:07:14,903 TRACE org.example.lab03.ShowDbRepository 104 findOne - Enter
+24 Mar 2026 14:07:14,904 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:07:14,904 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:07:14,904 TRACE org.example.lab03.ShowDbRepository 128 findOne - Exit with(org.example.lab03.Show@20)
+24 Mar 2026 14:07:14,904 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@25
+24 Mar 2026 14:07:14,904 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:07:14,904 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@398ab078)
+24 Mar 2026 14:07:14,911 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+24 Mar 2026 14:07:14,911 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+24 Mar 2026 14:07:14,911 TRACE org.example.lab03.ShowDbRepository 195 update - Enter update show org.example.lab03.Show@20
+24 Mar 2026 14:07:14,911 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:07:14,911 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:07:14,917 TRACE org.example.lab03.ShowDbRepository 208 update - Enter Updated 1 instance
+24 Mar 2026 14:07:14,917 TRACE org.example.lab03.ShowDbRepository 210 update - Exit
+24 Mar 2026 14:07:14,917 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+24 Mar 2026 14:07:14,917 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:07:14,917 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:07:14,918 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+24 Mar 2026 14:07:14,918 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+24 Mar 2026 14:07:14,918 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:07:14,918 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7416d89d)
+24 Mar 2026 14:07:14,919 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+24 Mar 2026 14:07:19,728 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 14:07:19,731 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 14:07:19,732 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 14:07:22,036 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 14:07:22,038 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 14:07:22,039 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+24 Mar 2026 14:07:27,702 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+24 Mar 2026 14:07:27,703 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:07:27,704 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+24 Mar 2026 14:07:27,705 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+24 Mar 2026 14:07:27,705 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+24 Mar 2026 14:07:27,706 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+24 Mar 2026 14:07:27,968 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@55635c8)
+24 Mar 2026 14:07:27,973 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit
+24 Mar 2026 14:07:34,726 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+24 Mar 2026 14:07:34,726 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:07:34,727 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@55635c8)
+24 Mar 2026 14:07:34,731 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+24 Mar 2026 14:07:34,771 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+24 Mar 2026 14:07:34,771 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+24 Mar 2026 14:07:34,771 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+24 Mar 2026 14:07:34,771 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+24 Mar 2026 14:07:34,771 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+24 Mar 2026 14:07:34,772 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+24 Mar 2026 14:07:34,772 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3fd7a609)
+24 Mar 2026 14:07:34,774 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+25 Mar 2026 20:38:13,094 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+25 Mar 2026 20:38:13,098 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+25 Mar 2026 20:38:13,098 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+25 Mar 2026 20:38:39,134 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+25 Mar 2026 20:38:39,134 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+25 Mar 2026 20:38:39,134 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+25 Mar 2026 20:38:39,135 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+25 Mar 2026 20:38:39,135 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+25 Mar 2026 20:38:39,135 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+25 Mar 2026 20:38:39,441 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49079440)
+25 Mar 2026 20:38:39,446 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+25 Mar 2026 20:38:39,513 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+25 Mar 2026 20:38:39,513 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+25 Mar 2026 20:38:39,513 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+25 Mar 2026 20:38:39,513 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+25 Mar 2026 20:38:39,513 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+25 Mar 2026 20:38:39,513 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+25 Mar 2026 20:38:39,514 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@99513cc)
+25 Mar 2026 20:38:39,524 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+25 Mar 2026 20:38:51,249 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+25 Mar 2026 20:38:51,249 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+25 Mar 2026 20:38:51,249 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@99513cc)
+25 Mar 2026 20:38:51,250 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@22])
+25 Mar 2026 20:38:53,964 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+25 Mar 2026 20:38:53,964 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+25 Mar 2026 20:38:53,965 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@99513cc)
+25 Mar 2026 20:38:53,966 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21])
+29 Mar 2026 21:35:31,985 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+29 Mar 2026 21:35:31,988 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+29 Mar 2026 21:35:31,989 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: {jdbc.url=jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite}
+29 Mar 2026 21:35:37,464 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+29 Mar 2026 21:35:37,464 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+29 Mar 2026 21:35:37,464 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+29 Mar 2026 21:35:37,465 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+29 Mar 2026 21:35:37,465 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+29 Mar 2026 21:35:37,465 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+29 Mar 2026 21:35:37,695 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c9fbb86)
+29 Mar 2026 21:35:37,700 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+29 Mar 2026 21:35:37,736 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+29 Mar 2026 21:35:37,736 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+29 Mar 2026 21:35:37,736 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+29 Mar 2026 21:35:37,736 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+29 Mar 2026 21:35:37,736 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+29 Mar 2026 21:35:37,736 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+29 Mar 2026 21:35:37,737 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bf7ec0c)
+29 Mar 2026 21:35:37,739 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+29 Mar 2026 21:35:46,706 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+29 Mar 2026 21:35:46,707 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+29 Mar 2026 21:35:46,707 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+29 Mar 2026 21:35:46,707 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+29 Mar 2026 21:35:46,707 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+29 Mar 2026 21:35:46,709 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+29 Mar 2026 21:35:46,711 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fa2909e)
+29 Mar 2026 21:35:46,714 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21, org.example.lab03.Ticket@22, org.example.lab03.Ticket@23, org.example.lab03.Ticket@24, org.example.lab03.Ticket@25])
+29 Mar 2026 21:35:46,715 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@24
+29 Mar 2026 21:35:46,715 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+29 Mar 2026 21:35:46,715 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fa2909e)
+29 Mar 2026 21:35:46,726 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+29 Mar 2026 21:35:46,726 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+29 Mar 2026 21:35:46,727 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+29 Mar 2026 21:35:46,727 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+29 Mar 2026 21:35:46,727 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bf7ec0c)
+29 Mar 2026 21:35:46,727 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+31 Mar 2026 12:18:17,254 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+31 Mar 2026 12:18:17,257 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+31 Mar 2026 12:18:17,257 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+31 Mar 2026 12:18:23,906 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+31 Mar 2026 12:18:23,906 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:23,907 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2026 12:18:23,907 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+31 Mar 2026 12:18:23,907 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2026 12:18:23,907 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2026 12:18:24,096 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:24,099 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+31 Mar 2026 12:18:24,136 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+31 Mar 2026 12:18:24,136 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:24,136 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:24,139 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+31 Mar 2026 12:18:31,483 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+31 Mar 2026 12:18:31,484 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:31,485 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:31,486 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@23])
+31 Mar 2026 12:18:43,984 TRACE org.example.lab03.ShowDbRepository 104 findOne - Enter
+31 Mar 2026 12:18:43,984 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:43,984 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:43,984 TRACE org.example.lab03.ShowDbRepository 128 findOne - Exit with(org.example.lab03.Show@21)
+31 Mar 2026 12:18:43,985 TRACE org.example.lab03.TicketDbRepository 151 save - Enter saving ticket org.example.lab03.Ticket@1f
+31 Mar 2026 12:18:43,985 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:43,985 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:43,990 TRACE org.example.lab03.TicketDbRepository 162 save - Saved 1 instance
+31 Mar 2026 12:18:43,990 TRACE org.example.lab03.TicketDbRepository 163 save - Exit
+31 Mar 2026 12:18:43,990 TRACE org.example.lab03.ShowDbRepository 195 update - Enter update show org.example.lab03.Show@21
+31 Mar 2026 12:18:43,990 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:43,990 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:43,994 TRACE org.example.lab03.ShowDbRepository 208 update - Enter Updated 1 instance
+31 Mar 2026 12:18:43,994 TRACE org.example.lab03.ShowDbRepository 210 update - Exit
+31 Mar 2026 12:18:43,994 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+31 Mar 2026 12:18:43,994 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:43,994 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:43,994 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+31 Mar 2026 12:18:43,995 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+31 Mar 2026 12:18:43,995 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:43,995 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:43,995 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@23])
+31 Mar 2026 12:18:49,984 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+31 Mar 2026 12:18:49,984 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:49,985 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:49,987 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21, org.example.lab03.Ticket@22, org.example.lab03.Ticket@23, org.example.lab03.Ticket@24, org.example.lab03.Ticket@25, org.example.lab03.Ticket@26])
+31 Mar 2026 12:18:49,987 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@26
+31 Mar 2026 12:18:49,987 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:49,988 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:49,996 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+31 Mar 2026 12:18:49,996 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+31 Mar 2026 12:18:49,996 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+31 Mar 2026 12:18:49,997 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:49,997 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:49,998 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+31 Mar 2026 12:18:49,999 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+31 Mar 2026 12:18:49,999 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:18:49,999 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:18:49,999 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([org.example.lab03.Show@23])
+31 Mar 2026 12:22:04,267 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+31 Mar 2026 12:22:04,268 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+31 Mar 2026 12:22:04,269 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+31 Mar 2026 12:22:09,501 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+31 Mar 2026 12:22:09,502 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:22:09,502 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2026 12:22:09,502 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+31 Mar 2026 12:22:09,503 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2026 12:22:09,503 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2026 12:22:09,736 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:22:09,740 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+31 Mar 2026 12:22:09,769 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+31 Mar 2026 12:22:09,770 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:22:09,770 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:22:09,772 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+31 Mar 2026 12:22:18,715 TRACE org.example.lab03.ShowDbRepository 104 findOne - Enter
+31 Mar 2026 12:22:18,716 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:22:18,716 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:22:18,717 TRACE org.example.lab03.ShowDbRepository 128 findOne - Exit with(org.example.lab03.Show@21)
+31 Mar 2026 12:22:18,717 TRACE org.example.lab03.TicketDbRepository 151 save - Enter saving ticket org.example.lab03.Ticket@1f
+31 Mar 2026 12:22:18,717 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:22:18,717 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:22:18,727 TRACE org.example.lab03.TicketDbRepository 162 save - Saved 1 instance
+31 Mar 2026 12:22:18,727 TRACE org.example.lab03.TicketDbRepository 163 save - Exit
+31 Mar 2026 12:22:18,727 TRACE org.example.lab03.ShowDbRepository 195 update - Enter update show org.example.lab03.Show@21
+31 Mar 2026 12:22:18,728 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:22:18,728 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:22:18,732 TRACE org.example.lab03.ShowDbRepository 208 update - Enter Updated 1 instance
+31 Mar 2026 12:22:18,732 TRACE org.example.lab03.ShowDbRepository 210 update - Exit
+31 Mar 2026 12:22:18,732 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+31 Mar 2026 12:22:18,733 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:22:18,733 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:22:18,733 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+31 Mar 2026 12:22:26,135 TRACE org.example.lab03.TicketDbRepository 113 findAll - Enter
+31 Mar 2026 12:22:26,135 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:22:26,135 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:22:26,138 TRACE org.example.lab03.TicketDbRepository 145 findAll - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@21, org.example.lab03.Ticket@22, org.example.lab03.Ticket@23, org.example.lab03.Ticket@24, org.example.lab03.Ticket@25, org.example.lab03.Ticket@26, org.example.lab03.Ticket@27])
+31 Mar 2026 12:22:26,138 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@27
+31 Mar 2026 12:22:26,138 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:22:26,138 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:22:26,144 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+31 Mar 2026 12:22:26,144 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+31 Mar 2026 12:22:26,144 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+31 Mar 2026 12:22:26,144 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2026 12:22:26,144 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+31 Mar 2026 12:22:26,146 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+31 Mar 2026 12:22:31,354 TRACE org.example.lab03.utils.JdbcUtils 62 closeConnection - Enter
+31 Mar 2026 12:22:31,354 INFO  org.example.lab03.utils.JdbcUtils 66 closeConnection - Connection closed
+31 Mar 2026 12:22:31,355 TRACE org.example.lab03.utils.JdbcUtils 72 closeConnection - Exit
+06 Apr 2026 18:22:10,194 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@2d26d7ca
+06 Apr 2026 18:22:10,196 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@2d26d7ca
+06 Apr 2026 18:22:10,196 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@2d26d7ca
+06 Apr 2026 18:22:15,674 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+06 Apr 2026 18:22:15,674 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:22:15,675 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+06 Apr 2026 18:22:15,675 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+06 Apr 2026 18:22:15,676 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+06 Apr 2026 18:22:15,676 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+06 Apr 2026 18:22:15,985 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57c8b17)
+06 Apr 2026 18:22:15,990 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+06 Apr 2026 18:22:16,024 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+06 Apr 2026 18:22:16,025 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:22:16,025 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57c8b17)
+06 Apr 2026 18:22:16,027 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+06 Apr 2026 18:33:49,136 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+06 Apr 2026 18:33:49,138 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+06 Apr 2026 18:33:49,138 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+06 Apr 2026 18:33:54,470 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+06 Apr 2026 18:33:54,471 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:33:54,471 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+06 Apr 2026 18:33:54,472 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+06 Apr 2026 18:33:54,472 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+06 Apr 2026 18:33:54,473 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+06 Apr 2026 18:33:54,703 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+06 Apr 2026 18:33:54,707 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+06 Apr 2026 18:33:54,742 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+06 Apr 2026 18:33:54,742 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:33:54,742 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+06 Apr 2026 18:33:54,744 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+06 Apr 2026 18:34:37,726 TRACE org.example.lab03.utils.JdbcUtils 62 closeConnection - Enter
+06 Apr 2026 18:34:37,731 INFO  org.example.lab03.utils.JdbcUtils 66 closeConnection - Connection closed
+06 Apr 2026 18:34:37,731 TRACE org.example.lab03.utils.JdbcUtils 72 closeConnection - Exit
+06 Apr 2026 18:43:36,911 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+06 Apr 2026 18:43:36,913 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+06 Apr 2026 18:43:36,913 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@3945a2dd
+06 Apr 2026 18:43:42,163 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+06 Apr 2026 18:43:42,164 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:43:42,164 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+06 Apr 2026 18:43:42,164 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+06 Apr 2026 18:43:42,165 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+06 Apr 2026 18:43:42,165 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+06 Apr 2026 18:43:42,376 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46a57e61)
+06 Apr 2026 18:43:42,380 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+06 Apr 2026 18:43:47,104 TRACE org.example.lab03.utils.JdbcUtils 62 closeConnection - Enter
+06 Apr 2026 18:43:47,106 INFO  org.example.lab03.utils.JdbcUtils 66 closeConnection - Connection closed
+06 Apr 2026 18:43:47,106 TRACE org.example.lab03.utils.JdbcUtils 72 closeConnection - Exit
+06 Apr 2026 18:44:35,399 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+06 Apr 2026 18:44:35,401 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+06 Apr 2026 18:44:35,401 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+06 Apr 2026 18:44:40,654 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+06 Apr 2026 18:44:40,654 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:44:40,654 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+06 Apr 2026 18:44:40,655 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+06 Apr 2026 18:44:40,655 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+06 Apr 2026 18:44:40,655 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+06 Apr 2026 18:44:40,850 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:44:40,855 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+06 Apr 2026 18:44:40,893 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+06 Apr 2026 18:44:40,893 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:44:40,893 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:44:40,896 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+06 Apr 2026 18:44:53,948 TRACE org.example.lab03.TicketDbRepository 33 findByShow - Enter
+06 Apr 2026 18:44:53,949 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:44:53,950 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:44:53,953 TRACE org.example.lab03.TicketDbRepository 68 findByShow - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@22, org.example.lab03.Ticket@24, org.example.lab03.Ticket@25])
+06 Apr 2026 18:45:02,575 TRACE org.example.lab03.TicketDbRepository 74 findOne - Enter
+06 Apr 2026 18:45:02,576 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:45:02,576 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:45:02,577 TRACE org.example.lab03.TicketDbRepository 107 findOne - Exit with(org.example.lab03.Ticket@20)
+06 Apr 2026 18:45:02,577 TRACE org.example.lab03.ShowDbRepository 104 findOne - Enter
+06 Apr 2026 18:45:02,577 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:45:02,577 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:45:02,577 TRACE org.example.lab03.ShowDbRepository 128 findOne - Exit with(org.example.lab03.Show@20)
+06 Apr 2026 18:45:02,578 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@20
+06 Apr 2026 18:45:02,578 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:45:02,578 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:45:02,586 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+06 Apr 2026 18:45:02,586 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+06 Apr 2026 18:45:02,587 TRACE org.example.lab03.ShowDbRepository 195 update - Enter update show org.example.lab03.Show@20
+06 Apr 2026 18:45:02,587 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:45:02,587 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:45:02,591 TRACE org.example.lab03.ShowDbRepository 208 update - Enter Updated 1 instance
+06 Apr 2026 18:45:02,591 TRACE org.example.lab03.ShowDbRepository 210 update - Exit
+06 Apr 2026 18:45:02,591 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+06 Apr 2026 18:45:02,591 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:45:02,592 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:45:02,592 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+06 Apr 2026 18:45:02,593 TRACE org.example.lab03.TicketDbRepository 33 findByShow - Enter
+06 Apr 2026 18:45:02,593 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:45:02,594 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:45:02,594 TRACE org.example.lab03.TicketDbRepository 68 findByShow - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@22, org.example.lab03.Ticket@24, org.example.lab03.Ticket@25])
+06 Apr 2026 18:45:06,926 TRACE org.example.lab03.utils.JdbcUtils 62 closeConnection - Enter
+06 Apr 2026 18:45:06,928 INFO  org.example.lab03.utils.JdbcUtils 66 closeConnection - Connection closed
+06 Apr 2026 18:45:06,928 TRACE org.example.lab03.utils.JdbcUtils 72 closeConnection - Exit
+06 Apr 2026 18:45:36,180 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+06 Apr 2026 18:45:36,181 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+06 Apr 2026 18:45:36,182 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+06 Apr 2026 18:45:41,917 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+06 Apr 2026 18:45:41,917 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:45:41,917 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+06 Apr 2026 18:45:41,917 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+06 Apr 2026 18:45:41,918 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+06 Apr 2026 18:45:41,918 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+06 Apr 2026 18:45:42,105 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:45:42,109 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+06 Apr 2026 18:45:42,146 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+06 Apr 2026 18:45:42,146 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:45:42,146 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:45:42,149 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([org.example.lab03.Show@20, org.example.lab03.Show@21, org.example.lab03.Show@22, org.example.lab03.Show@23])
+06 Apr 2026 18:47:16,863 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@2d26d7ca
+06 Apr 2026 18:47:16,864 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@2d26d7ca
+06 Apr 2026 18:47:16,865 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@2d26d7ca
+06 Apr 2026 18:47:24,215 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+06 Apr 2026 18:47:24,215 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:47:24,215 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+06 Apr 2026 18:47:24,215 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+06 Apr 2026 18:47:24,216 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+06 Apr 2026 18:47:24,216 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+06 Apr 2026 18:47:24,415 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65babd7c)
+06 Apr 2026 18:47:24,420 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+06 Apr 2026 18:47:24,464 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+06 Apr 2026 18:47:24,464 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:47:24,465 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65babd7c)
+06 Apr 2026 18:47:24,469 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([Coldplay Tribute - Cluj - 2026-03-25T18:00, Jazz Night - Bucuresti - 2026-03-25T20:00, Rock Fest - Iasi - 2026-03-26T19:30, Pop Concert - Timisoara - 2026-03-27T21:00])
+06 Apr 2026 18:47:31,662 TRACE org.example.lab03.TicketDbRepository 33 findByShow - Enter
+06 Apr 2026 18:47:31,663 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:47:31,663 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65babd7c)
+06 Apr 2026 18:47:31,667 TRACE org.example.lab03.TicketDbRepository 68 findByShow - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@22, org.example.lab03.Ticket@24, org.example.lab03.Ticket@25])
+06 Apr 2026 18:47:42,602 TRACE org.example.lab03.TicketDbRepository 74 findOne - Enter
+06 Apr 2026 18:47:42,602 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:47:42,602 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65babd7c)
+06 Apr 2026 18:47:42,604 TRACE org.example.lab03.TicketDbRepository 107 findOne - Exit with(org.example.lab03.Ticket@22)
+06 Apr 2026 18:47:42,604 TRACE org.example.lab03.ShowDbRepository 104 findOne - Enter
+06 Apr 2026 18:47:42,604 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:47:42,607 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65babd7c)
+06 Apr 2026 18:47:42,608 TRACE org.example.lab03.ShowDbRepository 128 findOne - Exit with(Coldplay Tribute - Cluj - 2026-03-25T18:00)
+06 Apr 2026 18:47:42,608 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@22
+06 Apr 2026 18:47:42,608 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:47:42,614 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65babd7c)
+06 Apr 2026 18:47:42,624 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+06 Apr 2026 18:47:42,624 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+06 Apr 2026 18:47:42,624 TRACE org.example.lab03.ShowDbRepository 195 update - Enter update show Coldplay Tribute - Cluj - 2026-03-25T18:00
+06 Apr 2026 18:47:42,625 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:47:42,625 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65babd7c)
+06 Apr 2026 18:47:42,630 TRACE org.example.lab03.ShowDbRepository 208 update - Enter Updated 1 instance
+06 Apr 2026 18:47:42,630 TRACE org.example.lab03.ShowDbRepository 210 update - Exit
+06 Apr 2026 18:47:42,630 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+06 Apr 2026 18:47:42,630 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:47:42,630 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65babd7c)
+06 Apr 2026 18:47:42,630 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([Coldplay Tribute - Cluj - 2026-03-25T18:00, Jazz Night - Bucuresti - 2026-03-25T20:00, Rock Fest - Iasi - 2026-03-26T19:30, Pop Concert - Timisoara - 2026-03-27T21:00])
+06 Apr 2026 18:47:42,633 TRACE org.example.lab03.TicketDbRepository 33 findByShow - Enter
+06 Apr 2026 18:47:42,633 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:47:42,634 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65babd7c)
+06 Apr 2026 18:47:42,634 TRACE org.example.lab03.TicketDbRepository 68 findByShow - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@22, org.example.lab03.Ticket@24, org.example.lab03.Ticket@25])
+06 Apr 2026 18:47:47,025 TRACE org.example.lab03.utils.JdbcUtils 62 closeConnection - Enter
+06 Apr 2026 18:47:47,027 INFO  org.example.lab03.utils.JdbcUtils 66 closeConnection - Connection closed
+06 Apr 2026 18:47:47,028 TRACE org.example.lab03.utils.JdbcUtils 72 closeConnection - Exit
+06 Apr 2026 18:52:09,376 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+06 Apr 2026 18:52:09,378 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+06 Apr 2026 18:52:09,379 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+06 Apr 2026 18:52:15,105 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+06 Apr 2026 18:52:15,105 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:52:15,106 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+06 Apr 2026 18:52:15,106 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+06 Apr 2026 18:52:15,106 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+06 Apr 2026 18:52:15,107 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+06 Apr 2026 18:52:15,313 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:52:15,317 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+06 Apr 2026 18:52:15,357 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+06 Apr 2026 18:52:15,357 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:52:15,357 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:52:15,360 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([Coldplay Tribute - Cluj - 2026-03-25T18:00, Jazz Night - Bucuresti - 2026-03-25T20:00, Rock Fest - Iasi - 2026-03-26T19:30, Pop Concert - Timisoara - 2026-03-27T21:00])
+06 Apr 2026 18:52:22,199 TRACE org.example.lab03.TicketDbRepository 33 findByShow - Enter
+06 Apr 2026 18:52:22,199 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:52:22,199 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:52:22,202 TRACE org.example.lab03.TicketDbRepository 68 findByShow - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@22, org.example.lab03.Ticket@24, org.example.lab03.Ticket@25])
+06 Apr 2026 18:52:28,443 TRACE org.example.lab03.TicketDbRepository 74 findOne - Enter
+06 Apr 2026 18:52:28,444 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:52:28,444 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:52:28,446 TRACE org.example.lab03.TicketDbRepository 107 findOne - Exit with(org.example.lab03.Ticket@22)
+06 Apr 2026 18:52:28,446 TRACE org.example.lab03.ShowDbRepository 104 findOne - Enter
+06 Apr 2026 18:52:28,446 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:52:28,447 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:52:28,448 TRACE org.example.lab03.ShowDbRepository 128 findOne - Exit with(Coldplay Tribute - Cluj - 2026-03-25T18:00)
+06 Apr 2026 18:52:28,450 TRACE org.example.lab03.TicketDbRepository 181 update - Enter update ticket org.example.lab03.Ticket@22
+06 Apr 2026 18:52:28,450 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:52:28,450 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:52:28,460 TRACE org.example.lab03.TicketDbRepository 193 update - Enter Updated 1 instance
+06 Apr 2026 18:52:28,460 TRACE org.example.lab03.TicketDbRepository 195 update - Exit
+06 Apr 2026 18:52:28,460 TRACE org.example.lab03.ShowDbRepository 195 update - Enter update show Coldplay Tribute - Cluj - 2026-03-25T18:00
+06 Apr 2026 18:52:28,461 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:52:28,461 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:52:28,466 TRACE org.example.lab03.ShowDbRepository 208 update - Enter Updated 1 instance
+06 Apr 2026 18:52:28,466 TRACE org.example.lab03.ShowDbRepository 210 update - Exit
+06 Apr 2026 18:52:28,466 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+06 Apr 2026 18:52:28,466 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:52:28,466 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:52:28,466 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([Coldplay Tribute - Cluj - 2026-03-25T18:00, Jazz Night - Bucuresti - 2026-03-25T20:00, Rock Fest - Iasi - 2026-03-26T19:30, Pop Concert - Timisoara - 2026-03-27T21:00])
+06 Apr 2026 18:52:28,467 TRACE org.example.lab03.TicketDbRepository 33 findByShow - Enter
+06 Apr 2026 18:52:28,467 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+06 Apr 2026 18:52:28,467 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+06 Apr 2026 18:52:28,468 TRACE org.example.lab03.TicketDbRepository 68 findByShow - Exit with([org.example.lab03.Ticket@20, org.example.lab03.Ticket@22, org.example.lab03.Ticket@24, org.example.lab03.Ticket@25])
+07 Apr 2026 09:46:18,120 INFO  org.example.lab03.EmployeeDbRepository 20 <init> - Initializing EmployeeDBRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+07 Apr 2026 09:46:18,122 INFO  org.example.lab03.ShowDbRepository 27 <init> - Initializing ShowDbRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+07 Apr 2026 09:46:18,123 INFO  org.example.lab03.TicketDbRepository 27 <init> - Initializing TicketDbRepository with properties: org.example.lab03.utils.JdbcUtils@3ffac47c
+07 Apr 2026 09:46:25,816 TRACE org.example.lab03.EmployeeDbRepository 26 findByUsername - Enter
+07 Apr 2026 09:46:25,816 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2026 09:46:25,817 TRACE org.example.lab03.utils.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2026 09:46:25,817 INFO  org.example.lab03.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/FMI-Informatica2024-2028/Anul_ll/Semestrul_ll/Medii_de_Proiectare_si_Programare/Laborator/ProiectLaborator/Java/teme-lab-denisas3/proiect-java/Lab03_java/fest.sqlite
+07 Apr 2026 09:46:25,818 INFO  org.example.lab03.utils.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2026 09:46:25,819 INFO  org.example.lab03.utils.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2026 09:46:26,088 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+07 Apr 2026 09:46:26,093 TRACE org.example.lab03.EmployeeDbRepository 48 findByUsername - Exit with(org.example.lab03.Employee@20)
+07 Apr 2026 09:46:26,142 TRACE org.example.lab03.ShowDbRepository 134 findAll - Enter
+07 Apr 2026 09:46:26,142 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2026 09:46:26,142 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+07 Apr 2026 09:46:26,150 TRACE org.example.lab03.ShowDbRepository 158 findAll - Exit with([Coldplay Tribute - Cluj - 2026-03-25T18:00, Jazz Night - Bucuresti - 2026-03-25T20:00, Rock Fest - Iasi - 2026-03-26T19:30, Pop Concert - Timisoara - 2026-03-27T21:00])
+07 Apr 2026 09:46:36,925 TRACE org.example.lab03.ShowDbRepository 33 findByDate - Enter
+07 Apr 2026 09:46:36,925 TRACE org.example.lab03.utils.JdbcUtils 48 getConnection - Enter
+07 Apr 2026 09:46:36,925 TRACE org.example.lab03.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1be8630)
+07 Apr 2026 09:46:36,926 TRACE org.example.lab03.ShowDbRepository 65 findByDate - Exit with([Coldplay Tribute - Cluj - 2026-03-25T18:00, Jazz Night - Bucuresti - 2026-03-25T20:00])
